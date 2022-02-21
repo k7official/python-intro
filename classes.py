@@ -48,3 +48,5 @@ enemy1.attack()
 enemy1.attack()
 enemy1.checkLife()
 enemy2.checkLife()
+
+# multiple inheri
