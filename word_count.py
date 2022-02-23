@@ -5,7 +5,7 @@ import operator
 
 def start(url):
     word_list = []
-    source_code = requests.get(url).text
+    source_code = requests.get(url, "html.parser").text
     soup = BeautifulSoup(source_code, features="html.parser")
     for post_text in soup.findAll('a', {'class': 'index_singleListingTitles'}):
         content = post_text.string
