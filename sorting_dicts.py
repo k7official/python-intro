@@ -8,4 +8,4 @@ stocks = {
 print(min(zip(stocks.values(), stocks.keys())))
 print(max(zip(stocks.values(), stocks.keys())))
 print(sorted(zip(stocks.values(), stocks.keys())))
-print(sorted(zip(stocks.keys(), stocks.values())))
+print(sorted(zip(stocks.keys(), stocks.values()))) 
